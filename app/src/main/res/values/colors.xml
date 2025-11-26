@@ -6,6 +6,8 @@
     <color name="myBlue">#4A90E2</color>
 
     <color name="LON">#F5F5F5</color>
-    <color name="LIGHTER_BLUE">#E3F2FD</color>
+    <color name="LAT">#F5F5F5</color>
+
+    <color name="LIGHTER_BLUE">#ADD8E6</color>
 
 </resources>

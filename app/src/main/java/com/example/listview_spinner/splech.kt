@@ -15,15 +15,14 @@ class SplashActivity : AppCompatActivity() {
         val isFirstRun = prefs.getBoolean("isFirstRun", true)
 
         if (isFirstRun) {
-            setContentView(R.layout.splach) // Ensure this layout file exists and is named correctly
+            setContentView(R.layout.splach)
 
             Handler(Looper.getMainLooper()).postDelayed({
                 prefs.edit().putBoolean("isFirstRun", false).apply()
-
-                val intent = Intent(this, PAGE1::class.java)
-                startActivity(intent)
+                startActivity(Intent(this, PAGE1::class.java))
                 finish()
             }, 2000)
+
         } else {
             startActivity(Intent(this, PAGE1::class.java))
             finish()
