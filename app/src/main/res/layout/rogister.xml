@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+
+
+        <TextView
+            android:id="@+id/tvPageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FullName"
+            android:padding="12dp"
+            android:background="@drawable/raduisedit"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@drawable/raduisedit"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/raduisedit"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chose your education level"
+            android:textSize="18sp"
+          android:paddingTop="20dp"
+            android:textColor="@color/black"/>
+
+        <!-- RADIO BUTTON GROUP -->
+        <RadioGroup
+            android:id="@+id/rgLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rbNouveau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="primare"
+                android:layout_marginEnd="16dp"/>
+
+            <RadioButton
+                android:id="@+id/rbEtudiant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="middle schoole"/>
+
+            <RadioButton
+                android:id="@+id/highschool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High school"/>
+        </RadioGroup>
+
+
+        <CheckBox
+            android:id="@+id/cheeck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I agree to the terms and conditions"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/raduise"
+            android:textColor="@android:color/white"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
