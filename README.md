@@ -17,7 +17,7 @@ Description :
 CartEtudiant est une application Android en Kotlin permettant d’afficher une liste d’étudiants et d'interagir avec différents composants (ListView, Spinner…). Ce projet est pédagogique.
 
 Captures d’écran (à remplacer par vos liens) :
-- Écran d’accueil : [https://your-link-here.com/screen1](https://github.com/Zakariadiouri/CartEtudiant/issues/1)
+- Écran d’accueil : [image home](https://github.com/Zakariadiouri/CartEtudiant/issues/1)
 - Liste des étudiants : https://your-link-here.com/screen2
 - Details / Spinner : https://your-link-here.com/screen3
 
